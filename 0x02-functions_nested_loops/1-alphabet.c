@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * main -task1
+ * print_alphabet - print a-z
  *
  * Description: print the alphabet
  */
 
 void print_alphabet(void)
 {
+	letter;
 	char = letter;
 
 	for  (letter = 'a'; letter <= 'z'; letter++)
