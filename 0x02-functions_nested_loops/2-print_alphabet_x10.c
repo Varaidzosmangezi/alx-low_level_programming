@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 2-print_alphabet_x10 - print alphabet times 10
+ * print_alphabet_x10 - print alphabet times 10
  *
  * Description: print alphabet times 10
  */
@@ -12,8 +12,9 @@ void print_alphabet_x10(void)
 	char letter;
 
 	while (counter++ <= 9)
+	{
 		for (letter = 'a'; letter <= 'z'; letter++)
 			_putchar(letter);
 	_putchar('\n');
-	return (0);
+	}
 }
